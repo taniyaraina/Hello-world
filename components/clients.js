@@ -1,10 +1,26 @@
+import styled from 'styled-components';
+
+
+
 const Clients = () => {
     return (
-      <section className="hero is-large is-info">
+      <section className="client is-small is-light">
         <div className="hero-body">
-          <p className="title"> hero</p>
-          <p className="subtitle">Large subtitle</p>
-        </div>
+          <div className="columns is-centered is-multiline">
+            <div className="column is-centered is-narrow">
+                <img src="https://divjoy.com/static/images/uploads/logo-instagram.svg" />
+            </div>
+            <div className="column is-centered is-narrow">
+                <img src="https://divjoy.com/static/images/uploads/logo-slack.svg" />
+            </div>
+            <div className="column is-centered is-narrow">
+                <img src="https://divjoy.com/static/images/uploads/logo-tinder.svg" />
+            </div>
+            <div className="column is-centered is-narrow">
+                <img src="https://divjoy.com/static/images/uploads/logo-spotify.svg" />
+            </div>
+          </div>
+       </div>
       </section>
     );
   };
