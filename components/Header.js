@@ -1,8 +1,15 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Box = styled.div`
+ padding : 1rem;
+ border-bottom : 1px solid grey;
+`;
 
 const Header = () => {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <Box>
+      <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a className="navbar-item" href="https://bulma.io">
           <img
@@ -56,6 +63,7 @@ const Header = () => {
         </div>
       </div>
     </nav>
+    </Box>
   );
 };
 

@@ -1,11 +1,19 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import HomeHero from '../components/HomeHero';
+import Hero from '../components/Hero';
+import Clients from '../components/clients';
+import Features from '../components/features';
+import Newsletter from '../components/newsletter';
+import Testimonial from '../components/testimonial';
 
 const Index = () => {
   return (
     <Layout>
-      <HomeHero />
+      <Hero />
+      <Clients />
+      <Features />
+      <Testimonial />
+      <Newsletter />
     </Layout>
   );
 };
