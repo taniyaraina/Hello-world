@@ -1,27 +1,35 @@
 import styled from 'styled-components';
 
+const Box = styled.div`
+img { 
+max-width: 100%;
+height: auto;
+}
 
+`;
 
 const Clients = () => {
     return (
-      <section className="client is-small is-light">
-        <div className="hero-body">
-          <div className="columns is-centered is-multiline">
-            <div className="column is-centered is-narrow">
-                <img src="https://divjoy.com/static/images/uploads/logo-instagram.svg" />
-            </div>
-            <div className="column is-centered is-narrow">
-                <img src="https://divjoy.com/static/images/uploads/logo-slack.svg" />
-            </div>
-            <div className="column is-centered is-narrow">
-                <img src="https://divjoy.com/static/images/uploads/logo-tinder.svg" />
-            </div>
-            <div className="column is-centered is-narrow">
-                <img src="https://divjoy.com/static/images/uploads/logo-spotify.svg" />
+      <Box>
+        <section className="hero hero-body is-medium is-light is-relative">
+          <div className="is-flex is-justify-content-center">
+            <div className="columns is-centered is-multiline is-flex">
+              <div className="column pr-5 pl-5 is-centered is-narrow has-text-centered">
+                <img src="https://divjoy.com/static/images/uploads/logo-instagram.svg" width="150px" />
+              </div>
+              <div className="column pr-5 pl-5 is-centered is-narrow">
+                <img src="https://divjoy.com/static/images/uploads/logo-slack.svg" width="135px" />
+              </div>
+              <div className="column pr-5 pl-5 is-centered is-narrow">
+                <img src="https://divjoy.com/static/images/uploads/logo-tinder.svg" width="90px" />
+              </div>
+              <div className="column pr-5 pl-5 is-centered is-narrow">
+                <img src="https://divjoy.com/static/images/uploads/logo-spotify.svg" width="135px" />
+              </div>
             </div>
           </div>
-       </div>
-      </section>
+        </section>
+      </Box>
     );
   };
   

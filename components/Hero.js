@@ -4,7 +4,6 @@ const Box = styled.div`
   h1{
    max-width:80%;
   }
-  
 `;
 
 const Hero = () => {
